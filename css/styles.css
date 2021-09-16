@@ -4,9 +4,9 @@
 
     --primary-color: #F59E0B;
 
---dark-grey:#374151;
+    --dark-grey: #374151;
 
-
+    --off-white: #E5E7EB;
 }
 
 /* general style */
@@ -156,7 +156,7 @@ hr {
 
     padding: 2rem;
 
-text-align: center;
+    text-align: center;
 
 }
 
@@ -172,12 +172,33 @@ text-align: center;
 
 .hero .hero-heading {
 
-padding-top: 1rem;
+    padding-top: 1rem;
 
     font-size: 2rem;
 
-color: var(--dark-grey);
+    color: var(--dark-grey);
 
 }
 
 
+/* sections */
+
+.section {
+    padding: 2rem;
+
+
+}
+
+
+.section h1 {
+
+    text-align: center;
+
+
+}
+
+.ow {
+
+    background-color: var(--off-white);
+
+}
