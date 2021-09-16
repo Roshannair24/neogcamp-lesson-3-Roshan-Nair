@@ -4,7 +4,7 @@
 
     --primary-color: #F59E0B;
 
-
+--dark-grey:#374151;
 
 
 }
@@ -147,3 +147,37 @@ hr {
     color: white;
 
 }
+
+
+
+/* header */
+
+.hero {
+
+    padding: 2rem;
+
+text-align: center;
+
+}
+
+.hero .hero-img {
+
+    max-width: 35rem;
+
+    display: block;
+
+    margin: auto;
+
+}
+
+.hero .hero-heading {
+
+padding-top: 1rem;
+
+    font-size: 2rem;
+
+color: var(--dark-grey);
+
+}
+
+
