@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
+:root {
+
+    --primary-color: #F59E0B;
+
+
+
+
+}
+
+/* general style */
+
+* {
+    box-sizing: border-box;
+}
 
 
 body {
@@ -9,6 +23,12 @@ body {
 
 }
 
+hr {
+
+    margin: 2rem 0;
+
+
+}
 
 /* container */
 .container {
@@ -18,10 +38,64 @@ body {
 }
 
 
-.container-centre{
+.container-centre {
 
     max-width: 600px;
 
     margin: auto;
 
 }
+
+/* links */
+
+.link {
+
+    padding: 0.5rem;
+
+    text-decoration: none;
+}
+
+.primary-link {
+
+    background-color: var(--primary-color);
+
+    border-radius: 0.5rem;
+
+    color: white;
+
+
+}
+
+.secondary-link {
+
+    color: var(--primary-color);
+
+    border-radius: 0.5rem;
+
+    border: 1px solid var(--primary-color);
+}
+
+
+/* lists */
+
+.list-non-bullet {
+
+    list-style: none;
+
+
+}
+
+
+.list-inline {
+
+
+
+
+    display: inline;
+
+padding: 0 0.5rem;
+
+}
+
+
+/* navbar */
