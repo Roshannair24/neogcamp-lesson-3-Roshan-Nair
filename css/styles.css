@@ -8,3 +8,20 @@ body {
 
 
 }
+
+
+/* container */
+.container {
+
+    padding: 0 1rem;
+
+}
+
+
+.container-centre{
+
+    max-width: 600px;
+
+    margin: auto;
+
+}
