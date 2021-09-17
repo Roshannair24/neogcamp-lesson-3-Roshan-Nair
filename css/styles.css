@@ -162,29 +162,22 @@ hr {
 
 .navigation .link-active {
   font-weight: bold;
- 
 }
 
 .nav-pills li .link {
   color: white;
 
   transition: all 0.5s ease;
-
-
-
 }
 
-.navigation .link-active .link{
+.navigation .link-active .link {
   font-weight: bold;
-  color:var(--dark-grey) ;
+  color: var(--dark-grey);
   transition: all 0.5s ease;
 }
 
-
-
 .nav-pills li .link:hover {
-  color:var(--dark-grey) ;
-
+  color: var(--dark-grey);
 
   transition: all 0.5s ease;
 }
@@ -226,6 +219,35 @@ hr {
 
 .ow {
   background-color: var(--off-white);
+}
+
+.link-detail-sections {
+  height: 12.5rem;
+
+  padding-top: 0.1rem;
+  padding-bottom: 0.25rem;
+
+  border-radius: 1rem;
+
+  border-style: solid;
+
+  border-color: blue;
+
+  border-width: 2px;
+}
+
+.link-detail-sections-ow {
+  background-color: var(--off-white);
+
+  border-color: var(--off-white);
+}
+
+.link-detail-sections-w {
+
+  background-color: white;
+
+  border-color: var(--off-white);
+
 }
 
 /* footers */
