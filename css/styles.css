@@ -250,6 +250,17 @@ hr {
 
 }
 
+/* blog page */
+
+.blog .first-anchor {
+
+
+  text-decoration: none;
+
+ color: var(--dark-grey);
+}
+
+
 /* footers */
 
 .footer {
