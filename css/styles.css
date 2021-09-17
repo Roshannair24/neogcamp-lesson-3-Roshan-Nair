@@ -162,10 +162,29 @@ hr {
 
 .navigation .link-active {
   font-weight: bold;
+ 
 }
 
 .nav-pills li .link {
   color: white;
+
+
+
+padding-left: 2rem;
+padding-right: 2rem;
+
+
+}
+
+.navigation .link-active .link{
+  font-weight: bold;
+  color:var(--dark-grey) ;
+}
+
+
+
+.nav-pills li .link:hover {
+  color:var(--dark-grey) ;
 }
 
 /* header */
