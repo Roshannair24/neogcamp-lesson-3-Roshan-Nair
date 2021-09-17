@@ -3,6 +3,7 @@
 :root {
   --primary-color: #f59e0b;
 
+  --light-primary-color:#FBBF24;
   --dark-grey: #374151;
 
   /* --off-white: #e5e7eb; */
@@ -62,6 +63,20 @@ margin: 5rem 0;
   border-radius: 0.5rem;
 
   color: white;
+
+  transition: all 0.5s ease;
+}
+
+.primary-link:hover {
+  background-color: var(--light-primary-color);
+
+  box-shadow: 0px  0px 6px var(--primary-color);
+
+  border-radius: 0.5rem;
+
+  color: white;
+
+  transition: all 0.5s ease;
 }
 
 .secondary-link {
@@ -70,7 +85,28 @@ margin: 5rem 0;
   border-radius: 0.5rem;
 
   border: 1px solid var(--primary-color);
+
+
+  transition: all 0.5s ease;
 }
+
+.secondary-link:hover {
+   color: white;
+
+  border-radius: 0.5rem;
+
+  border: 1px solid var(--primary-color);
+
+  transition: all 0.5s ease;
+
+  background-color: var(--primary-color);
+
+ 
+
+ 
+
+}
+
 
 /* tablecontainer */
 
@@ -215,4 +251,12 @@ font-size: large;
 
 .footer ul {
   padding-inline-start: 0;
+}
+
+
+.footer .bx{
+
+color: var(--primary-color);
+font-size: 2rem;
+
 }
