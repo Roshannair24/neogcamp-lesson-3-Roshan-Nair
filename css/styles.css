@@ -323,19 +323,24 @@ hr {
 
 .blog-container {
   display: flex;
-
+  flex-direction: column;
   max-width: 100%;
 
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 
+
+.blog-container h1{
+text-align: center;
+}
 .blog-para {
   display: flex;
 
   -webkit-hyphens: auto;
   hyphens: auto;
   flex-wrap: wrap;
-  word-break: break-all;
+  word-wrap: initial;
+  /* word-break: break-all; */
 }
 
 /* footers */
